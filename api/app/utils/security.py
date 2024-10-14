@@ -15,7 +15,7 @@ class Security:
         payload = {
             "user": user.username,
             "password": user.password,
-            "exp": datetime.datetime.now(Security.tz) + datetime.timedelta(hours=1000),
+            "exp": datetime.datetime.now(Security.tz) + datetime.timedelta(hours=24),
             "iat": datetime.datetime.now(Security.tz)
         }
         return jwt.encode(payload, Security.token_secret, algorithm="HS256")

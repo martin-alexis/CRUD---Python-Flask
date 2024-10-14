@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    localStorage.setItem('token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiSnVhbkxvcGV6IiwicGFzc3dvcmQiOiJzY3J5cHQ6MzI3Njg6ODoxJGs0c1FHb1l0U0RjekdNQkIkMWNmZjU2YjNiMTgyNDMwMmQ2MWIwZmE1NDMwYWY0MDQ4MjUxYjgyYWNjOGM1YmViNGYwNjRjOGI2MTgyYTdmMDk2MmNjYjM3Y2ViZWViNWY3OWRhNTcwZDYwODU5ODQ1ODAzNGI0YmIyMTBiNDNkMGI5MDFhNmExMjZjN2Y4NTEiLCJleHAiOjE3MzIzNDY3NzEsImlhdCI6MTcyODc0Njc3MX0.MK3Cl1n77PyU8dKcSaLAUsXXaBhs3Mcu7ioEE2Bj_MI');
+    localStorage.setItem('token', '');
     const token = localStorage.getItem('token'); // Recuperar el token aquí
 
     // Función para listar personas
